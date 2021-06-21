@@ -52,7 +52,7 @@ The repository is part of my journey through The Great K8s and AWS EKS
     service/kubernetes   ClusterIP   10.100.0.1   <none>        443/TCP   18m
     ```
 
-- Now we need to create node group, for that we will use config file named as `eks-create-ng.yaml`. Execute below command in terminal.
+- Now we create another node group, for that we will use config file named as `eks-create-ng.yaml`. Execute below command in terminal.
 
     ```
     eksctl create nodegroup --config-file=eks-create-ng.yaml
@@ -73,7 +73,7 @@ The repository is part of my journey through The Great K8s and AWS EKS
 
 - We can also create all these using command and giving bunch of parameters in command.
 
-- Now we need to create cluster using config file `eks-create-cluster.yaml`. Execute below command in terminal.
+- Now we create cluster using config file `eks-create-cluster.yaml`. Execute below command in terminal.
 
     ```
     eksctl create nodegroup --config-file=eks-create-cluster.yaml
@@ -84,7 +84,11 @@ The repository is part of my journey through The Great K8s and AWS EKS
 
 - Below are the screenshot of AWS Console of EC2, CloudFormation and EKS.
 
+![AWS EC2 Console](https://github.com/imdhruv99/Kubernetes-AWS-EKS/blob/main/Images/ec2_eks_test_.png)
 
+![AWS CloudFormation Console](https://github.com/imdhruv99/Kubernetes-AWS-EKS/blob/main/Images/cf_eks_test.png)
+
+![AWS EKS Console](https://github.com/imdhruv99/Kubernetes-AWS-EKS/blob/main/Images/eks_eks_test.png)
 
 - We can delete the cluster using below command.
 
