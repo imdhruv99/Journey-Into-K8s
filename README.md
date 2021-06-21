@@ -94,15 +94,22 @@ The repository is part of my journey through The Great K8s and AWS EKS
 
     This command will list all the cluster
     ```
-    eksctl get cluster
+    D:\GitHub\Kubernetes-AWS-EKS>eksctl get cluster
+    2021-06-21 19:19:55 [ℹ]  eksctl version 0.54.0
+    2021-06-21 19:19:55 [ℹ]  using region us-east-1
+    NAME            REGION          EKSCTL CREATED
+    eksctl-test     us-east-1       True
     ```
 
     Now delete the cluster, beind the scene it will delete the `AWS CloudFormation`
     ```
-    eks delete cluster --name=eksctl-test
+    eksctl delete cluster --name=eksctl-test 
     ```
 
-    - We can confirm that cluster is deleted using 
+    We can confirm that cluster is deleted using 
     ```
-    eksctl get cluster
+    D:\GitHub\Kubernetes-AWS-EKS>eksctl get cluster
+    2021-06-21 19:25:59 [ℹ]  eksctl version 0.54.0
+    2021-06-21 19:25:59 [ℹ]  using region us-east-1
+    No clusters found
     ``` 
