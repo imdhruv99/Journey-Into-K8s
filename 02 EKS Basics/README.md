@@ -53,11 +53,14 @@
 
 - Below are the screenshot of AWS Console of EC2, CloudFormation and EKS.
 
-![AWS EC2 Console](https://github.com/imdhruv99/Kubernetes-AWS-EKS/blob/main/Images/ec2_eks_test_.png)
+![AWS EC2 Console](https://github.com/imdhruv99/Kubernetes-AWS-EKS/blob/main/02%20EKS%20Basics/Images/ec2_eks_test_.png)
 
-![AWS CloudFormation Console](https://github.com/imdhruv99/Kubernetes-AWS-EKS/blob/main/Images/cf_eks_test.png)
 
-![AWS EKS Console](https://github.com/imdhruv99/Kubernetes-AWS-EKS/blob/main/Images/eks_eks_test.png)
+
+
+![AWS CloudFormation Console](https://github.com/imdhruv99/Kubernetes-AWS-EKS/blob/main/02%20EKS%20Basics/Images/cf_eks_test.png)
+
+![AWS EKS Console](https://github.com/imdhruv99/Kubernetes-AWS-EKS/blob/main/02%20EKS%20Basics/Images/eks_eks_test.png)
 
 - We can delete the cluster using below command.
 
