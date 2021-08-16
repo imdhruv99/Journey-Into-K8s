@@ -1,5 +1,5 @@
 # Core Architecture
-- This is the highlevel overview of the each components in Ks core architecture.
+- This is the highlevel overview of the each components in K8s core architecture.
 
 ## Master Node Component
 
