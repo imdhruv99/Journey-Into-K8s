@@ -1,7 +1,9 @@
 # Journey-Into-K8s
 
-#### TODO
-- Cluster Architecture
-- All Components
-- Create Cluster from Scratch
-- Apply Security to Cluster
+#### Next Steps
+- Scheduling
+- Logging and Scheduling
+- Application Life Cycle Management
+- Cluster Maintainance
+- Security
+- Networking
